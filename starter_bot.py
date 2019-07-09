@@ -1,4 +1,5 @@
 import tweepy
+import time
 
 CONSUMER_KEY = '9q5VscYk1YTIIfgJRqjAYcegT'
 CONSUMER_SECRET = 'Sh5yJ6yFl1zsqTMWD54uuo4tUNiobTY7moYLBElDjytWgbp4lG'
@@ -34,10 +35,10 @@ def reply():
         print(mention.text) #for testing purposes
         last_id = mention.id
         set_latest_id(last_id, F_NAME) #updates id storage file
-        if '#GoodMorning' in mention.text.lower(): #Checks reply condition
+        if '#goodmorning' in mention.text.lower(): #Checks reply condition
             print('responding...')
             api.update_status('@' + mention.user.screen_name + ' Good Morning!!!', mention.id) #api call to reply to tweet
 
 while True:
     reply()
-    sleep(30)
+    time.sleep(30)
