@@ -17,6 +17,6 @@ In order to use the Twitter API, a developer account is needed. Currently, the s
 
 # Twilio API
 In order to send SMS texts through Python, I created a Twilio account. You can create one for free at www.twillio.com.
-Once you have created your account, enter the phone number given to you by Twilio, as well as your real phone number into the python script where I have pointed out.
+Once you have created your account, enter the API keys, phone number given to you by Twilio, as well as your real phone number into the python script where I have pointed out.
 
 
