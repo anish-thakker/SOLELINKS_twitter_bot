@@ -2,12 +2,12 @@ import tweepy
 import time
 from twilio.rest import Client
 
-#Twilio API keys and tokens
+#Twilio API keys and tokens(ENTER YOUR OWN AFTER CREATION OF TWILIO ACCOUNT)
 account_sid = "AC7462e15d3dc7de55f35fa1971f32ce5b"
 auth_token  = "f4bbe4412129a90edf1fb09a0279a2d9"
 client = Client(account_sid, auth_token)
 
-#Twitter API keys and tokens
+#Twitter API keys and tokens(ENTER YOUR OWN AFTER CREATION OF DEVELOPER ACCOUNT)
 CONSUMER_KEY = '9q5VscYk1YTIIfgJRqjAYcegT'
 CONSUMER_SECRET = 'Sh5yJ6yFl1zsqTMWD54uuo4tUNiobTY7moYLBElDjytWgbp4lG'
 ACCESS_KEY = '1113227752788897793-YjV5oXprVKS9utbCpVqKHVkVRRDnMI'
@@ -52,8 +52,8 @@ def alert():
 
             #Uses the Twilio API to send a message to my phone from my Twilio free trial phone number
             message = client.messages.create(
-                to="+12404447747",
-                from_="+12029156653",
+                to="+1xxxxxxxxxx", #Enter your own phone number
+                from_="+1xxxxxxxxxx", #Enter the phone number given to you by Twilio
                 body="Here is a deal you may be interested in! Hurry, deals sell out quick!! https://twitter.com/SOLELINKS/status/" + str(tweet.id))
             print(message.sid)
 
