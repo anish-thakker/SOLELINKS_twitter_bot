@@ -13,7 +13,7 @@ Python3 can be installed from the Python website, and Tweepy and Twilio can be i
 Run the script locally by typing python3 starter_bot.py in your local terminal.
 
 # Twitter API
-In order to use the Twitter API, a developer account is needed. Currently, the script contains the old authorization tokens from my developer account, so to run the script please create a developer account and enter the credentials where I have pointed them out in the script.
+In order to use the Twitter API, a developer account is needed. Currently, the script contains the old authorization tokens from my developer account, so to run the script please create a developer account, generate your own API keys, and enter the credentials where I have pointed them out in the script.
 
 # Twilio API
 In order to send SMS texts through Python, I created a Twilio account. You can create one for free at www.twillio.com.
