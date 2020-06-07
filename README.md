@@ -10,7 +10,7 @@ Text file which stores the id of the most recent tweet. This avoids processing t
 # Using the Bot
 This bot requires Python3, the Tweepy library, and the Twilio module to be installed.
 Python3 can be installed from the Python website, and Tweepy and Twilio can be installed using the pip command.
-Run the script locally by typing python3 starter_bot.py in your local terminal.
+Run the script locally by typing "python3 starter_bot.py" in your local terminal.
 
 # Twitter API
 In order to use the Twitter API, a developer account is needed. Currently, the script contains the old authorization tokens from my developer account, so to run the script please create a developer account, generate your own API keys, and enter the credentials where I have pointed them out in the script.
